@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+************************************************ 
+    MENU DEL SITIO WEB
+************************************************
+*/
+.menu {
+  .menu__contenedor {
+    // border: 1px solid red;
+    .menu__contenedor--img {
+    //   border: 1px solid black;
+      width: 50%;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
