@@ -28,4 +28,57 @@ $tipografia: #000000;
     }
   }
 }
+/*
+************************************************ 
+    ¿ QUIENES SOMOS ?
+************************************************
+*/
+
+.conocenos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .conocenos__title {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: $tipografia;
+    .conocenos__secondLine {
+      display: block;
+    }
+  }
+  .conocenos__img-1 {
+    width: 60%;
+    margin: 2rem 0;
+    overflow: hidden;
+    .conocenos__img-jpg {
+      width: 100%;
+      transition: .3s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  .conocenos__parrafo {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 100%;
+    color: $tipografia;
+    margin: 2rem 0;
+    .conocenos__salto {
+      display: block;
+    }
+  }
+  .conocenos__subtitle {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: $tipografia;
+    font-weight: 700;
+    color: $tipografia;
+  }
+}
 

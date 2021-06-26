@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -13,3 +14,47 @@
   width: 50%; }
   .menu .menu__contenedor .menu__contenedor--img img {
     width: 50%; }
+
+/*
+************************************************ 
+    ¿ QUIENES SOMOS ?
+************************************************
+*/
+.conocenos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .conocenos .conocenos__title {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000; }
+    .conocenos .conocenos__title .conocenos__secondLine {
+      display: block; }
+  .conocenos .conocenos__img-1 {
+    width: 60%;
+    margin: 2rem 0;
+    overflow: hidden; }
+    .conocenos .conocenos__img-1 .conocenos__img-jpg {
+      width: 100%;
+      transition: .3s ease-in-out; }
+      .conocenos .conocenos__img-1 .conocenos__img-jpg:hover {
+        transform: scale(1.1); }
+  .conocenos .conocenos__parrafo {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 100%;
+    color: #000000;
+    margin: 2rem 0; }
+    .conocenos .conocenos__parrafo .conocenos__salto {
+      display: block; }
+  .conocenos .conocenos__subtitle {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #000000;
+    font-weight: 700;
+    color: #000000; }
