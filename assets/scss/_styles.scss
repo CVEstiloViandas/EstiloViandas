@@ -11,12 +11,55 @@
 */
 .menu {
   .menu__contenedor {
-    // border: 1px solid red;
+      padding: 15px;
+      .menu__contenedor--navBar{
+        background-color: $fondo__navBar;
+        padding: 10px;
+        ul{
+          justify-content: space-around;
+          width: 100%;
+        }
+        a{
+          color: $tipografia;
+        }  
+      }
     .menu__contenedor--img {
-    //   border: 1px solid black;
+      display: flex;
+      justify-content: center;
       width: 50%;
       img {
         width: 50%;
+      }
+    }
+  }
+}
+
+
+/*
+************************************************ 
+    RESPONSIVE
+************************************************
+*/
+
+@media only screen and (max-width: 991px){
+
+  .menu {
+    .menu__contenedor {
+        .menu__contenedor--navBar{
+          background-color: $blancoGeneral;
+          li{
+            padding: 2px 10px;
+          }
+          li:hover{
+            background-color: $fondo__navBar;
+          }
+        }
+      .menu__contenedor--img {
+        justify-content: flex-start;
+        width: 80%;
+        img {
+          width: 80%;
+        }
       }
     }
   }

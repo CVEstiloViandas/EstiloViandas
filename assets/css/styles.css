@@ -7,7 +7,37 @@
     MENU DEL SITIO WEB
 ************************************************
 */
-.menu .menu__contenedor .menu__contenedor--img {
-  width: 50%; }
-  .menu .menu__contenedor .menu__contenedor--img img {
+.menu .menu__contenedor {
+  padding: 15px; }
+  .menu .menu__contenedor .menu__contenedor--navBar {
+    background-color: rgba(167, 207, 59, 0.7);
+    padding: 10px; }
+    .menu .menu__contenedor .menu__contenedor--navBar ul {
+      justify-content: space-around;
+      width: 100%; }
+    .menu .menu__contenedor .menu__contenedor--navBar a {
+      color: #000000; }
+  .menu .menu__contenedor .menu__contenedor--img {
+    display: flex;
+    justify-content: center;
     width: 50%; }
+    .menu .menu__contenedor .menu__contenedor--img img {
+      width: 50%; }
+
+/*
+************************************************ 
+    RESPONSIVE
+************************************************
+*/
+@media only screen and (max-width: 991px) {
+  .menu .menu__contenedor .menu__contenedor--navBar {
+    background-color: #ffffff; }
+    .menu .menu__contenedor .menu__contenedor--navBar li {
+      padding: 2px 10px; }
+    .menu .menu__contenedor .menu__contenedor--navBar li:hover {
+      background-color: rgba(167, 207, 59, 0.7); }
+  .menu .menu__contenedor .menu__contenedor--img {
+    justify-content: flex-start;
+    width: 80%; }
+    .menu .menu__contenedor .menu__contenedor--img img {
+      width: 80%; } }
