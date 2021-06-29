@@ -1,7 +1,19 @@
 @import "_colores";
 
+/*
+************************************************ 
+    MIXINS
+************************************************
+*/
+
+@mixin titulos( $font-family, $font-weight ){
+  font-family: $font-family;
+  font-weight: $font-weight;
+}
+
 * {
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 /*
@@ -21,6 +33,8 @@
         }
         a{
           color: $tipografia;
+          @include titulos("Montserrat", 400);
+          font-size: 15px;
         }  
       }
     .menu__contenedor--img {
@@ -35,6 +49,43 @@
 }
 
 
+/*
+************************************************ 
+    PAGINA DE SERVICIOS
+************************************************
+*/
+.servicios{
+  //TEXTO
+  .servicios__texto{
+    padding: 10px 60px;
+    .servicios__texto--div{
+      border: 1px solid blue;
+      padding: 15px 10px;
+      h2{
+        @include titulos("Montserrat", 600);
+        font-size: 32px;
+        color: $tipografia;
+      }
+      p{
+        font-size: 16.5px;
+      }
+    }
+  }
+  .servicios__carousel{
+    border: 2px solid orange;
+    .carousel-inner{
+      .carousel-item{
+        height: 300px;
+        padding: 2px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  //CAROUSEL
+}
 /*
 ************************************************ 
     RESPONSIVE

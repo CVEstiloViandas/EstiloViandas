@@ -1,6 +1,12 @@
 /* VARIABLES COLORES */
+/*
+************************************************ 
+    MIXINS
+************************************************
+*/
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Roboto"; }
 
 /*
 ************************************************ 
@@ -16,13 +22,43 @@
       justify-content: space-around;
       width: 100%; }
     .menu .menu__contenedor .menu__contenedor--navBar a {
-      color: #000000; }
+      color: #000000;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 15px; }
   .menu .menu__contenedor .menu__contenedor--img {
     display: flex;
     justify-content: center;
     width: 50%; }
     .menu .menu__contenedor .menu__contenedor--img img {
       width: 50%; }
+
+/*
+************************************************ 
+    PAGINA DE SERVICIOS
+************************************************
+*/
+.servicios .servicios__texto {
+  padding: 10px 60px; }
+  .servicios .servicios__texto .servicios__texto--div {
+    border: 1px solid blue;
+    padding: 15px 10px; }
+    .servicios .servicios__texto .servicios__texto--div h2 {
+      font-family: "Montserrat";
+      font-weight: 600;
+      font-size: 32px;
+      color: #000000; }
+    .servicios .servicios__texto .servicios__texto--div p {
+      font-size: 16.5px; }
+
+.servicios .servicios__carousel {
+  border: 2px solid orange; }
+  .servicios .servicios__carousel .carousel-inner .carousel-item {
+    height: 300px;
+    padding: 2px; }
+    .servicios .servicios__carousel .carousel-inner .carousel-item img {
+      width: 100%;
+      height: 100%; }
 
 /*
 ************************************************ 
