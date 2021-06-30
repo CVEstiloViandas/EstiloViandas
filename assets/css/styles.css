@@ -87,27 +87,26 @@
     PAGINA DE SERVICIOS
 ************************************************
 */
-.servicios .servicios__texto {
-  padding: 10px 60px; }
-  .servicios .servicios__texto .servicios__texto--div {
-    border: 1px solid blue;
-    padding: 15px 10px; }
-    .servicios .servicios__texto .servicios__texto--div h2 {
-      font-family: "Montserrat";
-      font-weight: 600;
-      font-size: 32px;
-      color: #000000; }
-    .servicios .servicios__texto .servicios__texto--div p {
-      font-size: 16.5px; }
+.servicios .servicios__texto .servicios__texto--div {
+  padding: 10px 10px;
+  word-break: break-word; }
+  .servicios .servicios__texto .servicios__texto--div h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000; }
+  .servicios .servicios__texto .servicios__texto--div p {
+    font-size: 16.5px; }
 
-.servicios .servicios__carousel {
-  border: 2px solid orange; }
-  .servicios .servicios__carousel .carousel-inner .carousel-item {
-    height: 300px;
-    padding: 2px; }
-    .servicios .servicios__carousel .carousel-inner .carousel-item img {
-      width: 100%;
-      height: 100%; }
+.servicios .servicios__carousel .carousel {
+  width: 75%; }
+
+.servicios .servicios__carousel .carousel-inner .carousel-item {
+  height: 300px;
+  padding: 2px; }
+  .servicios .servicios__carousel .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 100%; }
 
 /*
 ************************************************ 

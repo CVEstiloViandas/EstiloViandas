@@ -118,10 +118,9 @@ $tipografia: #000000;
 .servicios{
   //TEXTO
   .servicios__texto{
-    padding: 10px 60px;
     .servicios__texto--div{
-      border: 1px solid blue;
-      padding: 15px 10px;
+      padding: 10px 10px;
+      word-break: break-word;
       h2{
         @include titulos("Montserrat", 600);
         font-size: 32px;
@@ -133,7 +132,9 @@ $tipografia: #000000;
     }
   }
   .servicios__carousel{
-    border: 2px solid orange;
+    .carousel{
+      width: 75%;
+    }
     .carousel-inner{
       .carousel-item{
         height: 300px;
