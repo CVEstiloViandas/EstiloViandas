@@ -11,7 +11,6 @@
   box-sizing: border-box;
   font-family: "Roboto"; }
 
-/* COLORES*/
 /*
 ************************************************ 
     MENU DEL SITIO WEB
@@ -36,6 +35,31 @@
     width: 50%; }
     .menu .menu__contenedor .menu__contenedor--img img {
       width: 50%; }
+
+/*
+************************************************ 
+    PAGINA DE INCIO
+************************************************
+*/
+.publicidad .publicidad__contenedor {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo {
+    width: 75%;
+    height: 30vh;
+    background-color: #ffffff;
+    opacity: 0.9;
+    position: absolute; }
+    .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo img {
+      width: 100%;
+      height: 100%; }
+  .publicidad .publicidad__contenedor .publicidad__contenedor--imgDeFondo {
+    width: 100%;
+    height: 100%; }
 
 /*
 ************************************************ 
@@ -83,7 +107,6 @@
 
 /*
 ************************************************ 
-<<<<<<< HEAD
     PAGINA DE SERVICIOS
 ************************************************
 */
@@ -115,9 +138,6 @@
 /*
 ************************************************ 
     RESPONSIVE
-=======
-    Nuestros Eventos 
->>>>>>> d05555cca9e4c2e7ae3fca2bd3bbde7fe2924f12
 ************************************************
 */
 .galeria__title {
