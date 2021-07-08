@@ -1,237 +1,315 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- LOGO PARA LA PESTAÑA -->
-    <link rel="shortcut icon" href="../img/cv-iso.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/cv-iso.png" type="image/x-icon" />
     <!-- TIPOGRAFÍA -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
     <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap" rel="stylesheet"/>
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
     <!-- ESTILOS CSS -->
     <link rel="stylesheet" href="../css/styles.css" />
     <title>CV ESTILO | SERVICIOS</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--CABECERA-->
     <header>
-        <nav class="navbar navbar-expand-lg menu">
-            <div class="container menu__contenedor">
-            <div class="menu__contenedor--img">
-                <a href="quien-somos.html"><img src="../img/CV-logo.png" alt="¡Somos CV Estilo Viandas!" title="¿Quién Somos?"/></a>
-            </div>
-            <button class="navbar-toggler navbar-light bg-#ffffff" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse menu__contenedor--navBar" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="eventos.html">Nuestros Eventos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="quien-somos.html">Quiénes Somos</a>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg menu">
+        <div class="container menu__contenedor">
+          <div class="menu__contenedor--img">
+            <a href="quien-somos.html">
+                <img src="../img/CV-logo.png" alt="¡Somos CV Estilo Viandas!" title="¿Quién Somos?"/>
+            </a>
+          </div>
+          <button class="navbar-toggler navbar-light bg-#ffffff" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse menu__contenedor--navBar" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="eventos.html">Nuestros Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quien-somos.html">Quiénes Somos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- CONTENIDO DEL SITIO WEB -->
     <main>
-        <section class="container servicios mt-5">
-            <div class="row d-flex justify-content-around">
-                <div class="col-md-4 servicios__texto">
-                    <div class="servicios__texto--div">
-                        <h2>Desayunos y Meriendas</h2>
-                        <p>Bandejas y Box para regalar, con bocados dulces y salados. Elegí entre las opciones clásicas o personalizadas para sorprender a tus seres queridos.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 px-0 servicios__carousel">
-                    <div id="carouselDesayuno-Merienda" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../img/servicios/desayuno-merienda-1.jpg" alt="Desayunos y Meriendas">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/servicios/desayuno-merienda-2.jpg" alt="Desayunos y Meriendas">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDesayuno-Merienda" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselDesayuno-Merienda" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
+      <section class="container servicios mt-5">
+        <div class="row d-flex justify-content-around">
+          <div class="col-md-4 servicios__texto">
+            <div class="servicios__texto--div">
+              <h2>Desayunos y Meriendas</h2>
+              <p>
+                Bandejas y Box para regalar, con bocados dulces y salados. Elegí
+                entre las opciones clásicas o personalizadas para sorprender a
+                tus seres queridos.
+              </p>
             </div>
-            <div class="row d-flex justify-content-around mt-5">
-                <div class="col-md-4 servicios__texto">
-                    <div class="servicios__texto--div">
-                        <h2>Catering - Lunch</h2>
-                        <p>Gran variedad de bocados fríos y calientes. Lo que quieras para tu evento, lo encontrás aquí. Sín límite de comensales, sea 1 o 100, lo llevamos dónde quieras.</p>
-                    </div>
+          </div>
+          <div class="col-md-6 px-0 servicios__carousel">
+            <div id="carouselDesayuno-Merienda" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/servicios/desayuno-merienda-1.jpg" alt="Desayunos y Meriendas"/>
                 </div>
-                <div class="col-md-6 px-0 servicios__carousel">
-                    <div id="carouselCatering-lunch" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../img/servicios/catering-launch-1.jpg" alt="Catering Launch">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/servicios/catering-launch-2.jpg" alt="Catering Launch">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCatering-lunch" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCatering-lunch" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                <div class="carousel-item">
+                  <img src="../img/servicios/desayuno-merienda-2.jpg" alt="Desayunos y Meriendas"/>
                 </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselDesayuno-Merienda" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselDesayuno-Merienda" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="row d-flex justify-content-around mt-5">
-                <div class="col-md-4 servicios__texto">
-                    <div class="servicios__texto--div">
-                        <h2>Pernil de Cerdo</h2>
-                        <p>El más elegido. Una opción deliciosa y abundante. Con panes, salsas, aderezos, todo listo para cortar y saborear. Consultá por nuestro <strong>"Show de Fuego"</strong>. También opción Pernil para regalar.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 px-0 servicios__carousel">
-                    <div id="carousel-Pernil-Cerdo" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../img/servicios/pernil-cerdo-1.jpg" alt="Pernil de Cerdo">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/servicios/pernil-cerdo-2.jpg" alt="Pernil de Cerdo">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-Pernil-Cerdo" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-Pernil-Cerdo" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around mt-5">
+          <div class="col-md-4 servicios__texto">
+            <div class="servicios__texto--div">
+              <h2>Catering - Lunch</h2>
+              <p>
+                Gran variedad de bocados fríos y calientes. Lo que quieras para
+                tu evento, lo encontrás aquí. Sín límite de comensales, sea 1 o
+                100, lo llevamos dónde quieras.
+              </p>
             </div>
-            <div class="row d-flex justify-content-around mt-5">
-                <div class="col-md-4 servicios__texto">
-                    <div class="servicios__texto--div">
-                        <h2>Picadas</h2>
-                        <p>Una propuesta diferente para cada ocasión. Lucite en tus propios eventos o sorprendé con este regalo. "No dejes para mañana lo que puedas picar hoy".</p>
-                    </div>
+          </div>
+          <div class="col-md-6 px-0 servicios__carousel">
+            <div id="carouselCatering-lunch" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/servicios/catering-launch-1.jpg" alt="Catering Launch"/>
                 </div>
-                <div class="col-md-6 px-0 servicios__carousel">
-                    <div id="carousel-picadas" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../img/servicios/picadas-1.jpg" alt="Picadas">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/servicios/picadas-2.jpg" alt="Picadas">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/servicios/picadas-3.jpg" alt="Picadas">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/servicios/picadas-4.jpg" alt="Picadas">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-picadas" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-picadas" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                <div class="carousel-item">
+                  <img src="../img/servicios/catering-launch-2.jpg" alt="Catering Launch"/>
                 </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselCatering-lunch" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselCatering-lunch" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="row d-flex justify-content-around mt-5">
-                <div class="col-md-4 servicios__texto">
-                    <div class="servicios__texto--div">
-                        <h2>Torta de Miga Salada</h2>
-                        <p>Del clásico sándwich de miga, a la sorprendente <strong>Torta Miga</strong>. Una bomba de sabores súper rendidora. Opción Torta Miga Entera ó 1/2 Torta.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 px-0 servicios__carousel">
-                    <div id="carousel-torta-miga-salada" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../img/servicios/torta-miga-salada-1.jpg" alt="Torta Miga Salada">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/servicios/torta-miga-salada-2.jpg" alt="Torta Miga Salada">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-torta-miga-salada" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-torta-miga-salada" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around mt-5">
+          <div class="col-md-4 servicios__texto">
+            <div class="servicios__texto--div">
+              <h2>Pernil de Cerdo</h2>
+              <p>
+                El más elegido. Una opción deliciosa y abundante. Con panes,
+                salsas, aderezos, todo listo para cortar y saborear. Consultá
+                por nuestro <strong>"Show de Fuego"</strong>. También opción
+                Pernil para regalar.
+              </p>
             </div>
-            <div class="row d-flex justify-content-around mt-5">
-                <div class="col-md-4 servicios__texto">
-                    <div class="servicios__texto--div">
-                        <h2>Veggie - Vegan</h2>
-                        <p><strong>"No comas menos, comé bien"</strong>. Opciones saludables sin perder ese sabor tan necesario. Opciones vegetarianas y veganas.</p>
-                    </div>
+          </div>
+          <div class="col-md-6 px-0 servicios__carousel">
+            <div id="carousel-Pernil-Cerdo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/servicios/pernil-cerdo-1.jpg" alt="Pernil de Cerdo"/>
                 </div>
-                <div class="col-md-6 px-0 servicios__carousel">
-                    <div id="carousel-veggie" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../img/servicios/veggie-1.jpg" alt="Veggie-Vegan">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/servicios/veggie-2.jpg" alt="Veggie-Vegan">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../img/servicios/veggie-3.jpg" alt="Veggie-Vegan">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-veggie" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-veggie" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                <div class="carousel-item">
+                  <img src="../img/servicios/pernil-cerdo-2.jpg" alt="Pernil de Cerdo"/>
                 </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-Pernil-Cerdo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-Pernil-Cerdo" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around mt-5">
+          <div class="col-md-4 servicios__texto">
+            <div class="servicios__texto--div">
+              <h2>Picadas</h2>
+              <p>
+                Una propuesta diferente para cada ocasión. Lucite en tus propios
+                eventos o sorprendé con este regalo. "No dejes para mañana lo
+                que puedas picar hoy".
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 px-0 servicios__carousel">
+            <div id="carousel-picadas" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/servicios/picadas-1.jpg" alt="Picadas" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/servicios/picadas-2.jpg" alt="Picadas" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/servicios/picadas-3.jpg" alt="Picadas" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/servicios/picadas-4.jpg" alt="Picadas" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-picadas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-picadas" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around mt-5">
+          <div class="col-md-4 servicios__texto">
+            <div class="servicios__texto--div">
+              <h2>Torta de Miga Salada</h2>
+              <p>
+                Del clásico sándwich de miga, a la sorprendente
+                <strong>Torta Miga</strong>. Una bomba de sabores súper
+                rendidora. Opción Torta Miga Entera ó 1/2 Torta.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 px-0 servicios__carousel">
+            <div id="carousel-torta-miga-salada" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/servicios/torta-miga-salada-1.jpg" alt="Torta Miga Salada"/>
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/servicios/torta-miga-salada-2.jpg" alt="Torta Miga Salada"/>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-torta-miga-salada" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-torta-miga-salada" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around mt-5">
+          <div class="col-md-4 servicios__texto">
+            <div class="servicios__texto--div">
+              <h2>Veggie - Vegan</h2>
+              <p>
+                <strong>"No comas menos, comé bien"</strong>. Opciones
+                saludables sin perder ese sabor tan necesario. Opciones
+                vegetarianas y veganas.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 px-0 servicios__carousel">
+            <div id="carousel-veggie" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/servicios/veggie-1.jpg" alt="Veggie-Vegan" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/servicios/veggie-2.jpg" alt="Veggie-Vegan" />
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/servicios/veggie-3.jpg" alt="Veggie-Vegan" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-veggie" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-veggie" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- PIE DE PAGINA-->
+    <footer class="footer">
+      <!-- Logo -->
+      <div class="footer__logo">
+        <img src="../img/CV-logo.png" class="footer__logo-png" alt="logo pie de página"/>
+      </div>
+      <!-- Redes sociales -->
+      <div class="footer__social">
+        <div class="social__1">
+          <img src="../img/icons/location.svg" role="img" alt="logo whatsapp" />
+          <p class="social__txt">Villa Ballester, Buenos Aires, Argentina</p>
+        </div>
+        <div class="social__1">
+          <img src="../img/icons/whatsapp.svg" role="img" alt="logo whatsapp" />
+          <p class="social__txt">
+                Whatsapp:
+            <a href="https://api.whatsapp.com/send?phone=+5491165845520&text=Hola%20!%20me%20gustar%C3%ADa%20consultar%20sobre%20el%20servicio" target="_blank" class="social__link">
+              +5491165845520
+            </a>
+          </p>
+        </div>
+        <div class="social__1">
+          <img src="../img/icons/instagram.svg" role="img" alt="logo Instagram"/>
+          <p class="social__txt">
+            Instagram:
+            <a href="https://www.instagram.com/cvestilocatering/" target="_blank" class="social__link">
+              @cvestilocatering
+            </a>
+          </p>
+        </div>
+        <div class="social__1">
+          <img src="../img/icons/facebook.svg" role="img" alt="logo facebook" />
+          <p class="social__txt">
+            Facebook:
+            <a href="https://www.facebook.com/cateringcvestilo/" class="social__link" target="_blank">
+              @cateringcvestilo
+            </a>
+          </p>
+        </div>
+      </div>
+      <!-- Secciones -->
+      <div class="footer__links">
+        <a href="../pages/servicios.html" class="footer__link-1"> Servicios </a>
+        <a href="../pages/eventos.html" class="footer__link-1">
+          Nuestros eventos
+        </a>
+        <a href="../pages/quien-somos.html" class="footer__link-1">
+          Quienes somos
+        </a>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>

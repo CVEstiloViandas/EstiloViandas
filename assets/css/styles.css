@@ -11,6 +11,12 @@
   box-sizing: border-box;
   font-family: "Roboto"; }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #ffffff; }
+
 /*
 ************************************************ 
     MENU DEL SITIO WEB
@@ -47,21 +53,23 @@
 ************************************************
 */
 .publicidad .publicidad__contenedor {
-  height: 100vh;
-  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  position: relative; }
   .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo {
-    width: 70%;
-    height: 30vh;
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
     opacity: 0.9;
-    position: absolute; }
+    padding: 20px 10px;
+    position: absolute;
+    width: 65%; }
     .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo img {
-      width: 100%;
-      height: 100%; }
+      height: 80%;
+      width: 80%; }
   .publicidad .publicidad__contenedor .publicidad__contenedor--imgDeFondo {
     width: 100%;
     height: 100%;
@@ -127,7 +135,7 @@
           font-family: "Montserrat";
           font-weight: 400; }
           .footer .footer__social .social__1 .social__txt .social__link:hover {
-            border-bottom: .5px solid gray; }
+            border-bottom: 0.5px solid gray; }
   .footer .footer__links {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +147,7 @@
       text-decoration: none;
       color: #000000;
       width: 60%;
-      transition: .3s ease-in-out;
+      transition: 0.3s ease-in-out;
       margin: 1rem 0; }
       .footer .footer__links .footer__link-1:hover {
         color: gray; }
@@ -161,7 +169,7 @@
     font-size: clamp(1.5rem, 2.5vw, 2rem);
     width: 100%;
     color: #000000;
-    padding: 0 .5rem; }
+    padding: 0 0.5rem; }
     .conocenos .conocenos__title .conocenos__secondLine {
       font-family: "Montserrat";
       font-weight: 600;
@@ -172,7 +180,7 @@
     overflow: hidden; }
     .conocenos .conocenos__img-1 .conocenos__img-jpg {
       width: 100%;
-      transition: .3s ease-in-out; }
+      transition: 0.3s ease-in-out; }
       .conocenos .conocenos__img-1 .conocenos__img-jpg:hover {
         transform: scale(1.1); }
   .conocenos .conocenos__parrafo {
@@ -188,7 +196,7 @@
       display: block; }
   .conocenos .conocenos__subtitle {
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     color: #000000;
     font-weight: 700;
     color: #000000; }
@@ -229,6 +237,9 @@
 ************************************************
 */
 @media only screen and (max-width: 992px) {
+  /* 
+    MENU DE NAVEGACION 
+  */
   .menu .menu__contenedor .menu__contenedor--navBar {
     background-color: #ffffff; }
     .menu .menu__contenedor .menu__contenedor--navBar a {
@@ -237,6 +248,82 @@
       background-color: rgba(167, 207, 59, 0.7); }
   .menu .menu__contenedor .menu__contenedor--img img {
     width: 100%; } }
+
+@media only screen and (max-width: 768px) {
+  /*
+************************************************ 
+    PAGINA DE INCIO
+************************************************
+*/
+  .publicidad .publicidad__contenedor {
+    height: 60vh; }
+    .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      opacity: 0.9;
+      padding: 20px 10px;
+      position: absolute;
+      width: 65%; }
+      .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo img {
+        height: 80%;
+        width: 80%; }
+    .publicidad .publicidad__contenedor .publicidad__contenedor--imgDeFondo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  /*
+************************************************ 
+    PAGINA DE SERVICIOS
+************************************************
+*/
+  .servicios .servicios__texto .servicios__texto--div h2,
+  .servicios .servicios__texto .servicios__texto--div p {
+    text-align: center; }
+  .servicios .servicios__carousel {
+    display: flex;
+    justify-content: center; }
+    .servicios .servicios__carousel .carousel {
+      width: 85%; }
+    .servicios .servicios__carousel .carousel-inner .carousel-item {
+      height: 330px; } }
+
+@media only screen and (max-width: 400px) {
+  /* 
+  MENU DE NAVEGACION 
+*/
+  .menu .menu__contenedor .menu__contenedor--img {
+    width: 70%; }
+  /*
+************************************************ 
+    PAGINA DE INCIO
+************************************************
+*/
+  .publicidad .publicidad__contenedor {
+    height: 45vh; }
+    .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo {
+      width: 75%; }
+      .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo img {
+        height: 100%;
+        width: 100%; }
+  .icocosInicio .iconosInicio__contenedorTitulo h2 {
+    font-size: 25px; }
+  .icocosInicio .icocosInicio__contenedorImg img {
+    width: 130px;
+    height: 130px; }
+  /*
+************************************************ 
+    PAGINA DE SERVICIOS
+************************************************
+*/
+  .servicios .servicios__texto .servicios__texto--div h2 {
+    font-size: 30px; }
+  .servicios .servicios__texto .servicios__texto--div p {
+    font-size: 15.5px; }
+  .servicios .servicios__carousel .carousel {
+    width: 95%; }
+  .servicios .servicios__carousel .carousel-inner .carousel-item {
+    height: 250px; } }
 
 /*
 .galeria__title {
