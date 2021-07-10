@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>CV ESTILO | Nuestros eventos</title>
-        <!-- TIPOGRAFÍA -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-        <!-- BOOTSTRAP -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-        <!-- ESTILOS CSS -->
-        <link rel="stylesheet" href="../css/styles.css"/>
-    </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV ESTILO | Nuestros eventos</title>
+  <!-- TIPOGRAFÍA -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- ESTILOS CSS -->
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
 <body>
-    <!-- CABECERA-->
-    <header>
-        <nav class="navbar navbar-expand-lg menu">
-            <div class="container menu__contenedor">
-                <div class="menu__contenedor--img">
-                    <img src="../img/CV-logo.png" alt="¡Somos CV Estilo Viandas!" />
-                </div>
-                <button class="navbar-toggler navbar-light bg-#ffffff" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse menu__contenedor--navBar" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/eventos.html">Nuestros Eventos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/quien-somos.html">Quiénes Somos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- PIE DE PAGINA-->
+  <!--CABECERA-->
+  <header>
+    <nav class="navbar navbar-expand-lg menu">
+      <div class="container menu__contenedor">
+        <div class="menu__contenedor--img">
+          <a href="quien-somos.html">
+              <img src="../img/cv-logotipo.svg" alt="¡Somos CV Estilo Viandas!" title="¿Quién Somos?"/>
+          </a>
+        </div>
+        <button class="navbar-toggler navbar-light bg-#ffffff" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menu__contenedor--navBar" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quien-somos.html">Quiénes Somos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- CONTENIDO -->
+  <main class="contacto">
+    <h1 class="contacto__title">escribinos</h1>
+    <div class="social__1 contacto__wsp">
+      <img src="/assets/img/icons/whatsapp.svg" role="img" alt="logo whatsapp">
+      <p class="social__txt contacto__wsp-text">Whatsapp: <a
+          href="https://api.whatsapp.com/send?phone=+5491165845520&text=Hola%20!%20me%20gustar%C3%ADa%20consultar%20sobre%20el%20servicio"
+          target="_blank" class="social__link contacto__link">+5491165845520</a></p>
+    </div>
+    <div class="contacto__img">
+      <img src="/assets/img/contacto/mockup.png" alt="" class="contacto__img-png">
+    </div>
+    <h2 class="contacto__title">¡atención!</h2>
+    <div class="contacto__icons">
+      <div class="contacto__1">
+        <img src="/assets/img/contacto/megaphone.svg" alt="" class="contacto__svg">
+        <p class="contacto__descrip"> <span class="contacto__salto">¡Reservá con tiempo!</span><span
+            class="contacto__salto">El que sabe comer,</span> sabe esperar</p>
+      </div>
+      <div class="contacto__1">
+        <img src="/assets/img/contacto/box.svg" alt="" class="contacto__svg">
+        <p class="contacto__descrip"> <span class="contacto__salto">Entregas: Retiralo o
+          </span> Consulta zona de envíos</p>
+      </div>
+    </div>
+  </main>
+  <!-- PIE DE PAGINA-->
   <footer class="footer">
     <!-- Logo -->
     <div class="footer__logo">
-      <img src="/assets/img/CV-logo.png" class="footer__logo-png" alt="logo pie de página">
+      <img src="/assets/img/cv-logotipo.svg" class="footer__logo-png" alt="logo pie de página">
     </div>
     <!-- Redes sociales -->
     <div class="footer__social">
@@ -68,20 +98,24 @@
       <div class="social__1">
         <img src="/assets/img/icons/instagram.svg" role="img" alt="logo Instagram">
         <p class="social__txt">Instagram: <a href="https://www.instagram.com/cvestilocatering/" target="_blank"
-            class="social__link">@cvestilocatering</a></p>
+            class="social__link">@ cvestilocatering</a></p>
       </div>
       <div class="social__1">
         <img src="/assets/img/icons/facebook.svg" role="img" alt="logo facebook">
         <p class="social__txt">Facebook: <a href="https://www.facebook.com/cateringcvestilo/" class="social__link"
-            target="_blank">@cateringcvestilo</a></p>
+            target="_blank">@ cateringcvestilo</a></p>
       </div>
     </div>
     <!-- Secciones -->
     <div class="footer__links">
-      <a href="assets/pages/servicios.html" class="footer__link-1">Servicios</a>
-      <a href="assets/pages/eventos.html" class="footer__link-1">Nuestros eventos</a>
-      <a href="assets/pages/quien-somos.html" class="footer__link-1">Quienes somos</a>
+      <a href="../pages/servicios.html" class="footer__link-1">Servicios</a>
+      <a href="../pages/quien-somos.html" class="footer__link-1">Quienes somos</a>
+      <a href="../pages/contacto.html" class="footer__link-1">Contacto</a>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
