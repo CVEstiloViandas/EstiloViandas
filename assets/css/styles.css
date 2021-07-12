@@ -404,7 +404,16 @@ header {
 ************************************************
 */
   .conocenos .conocenos__parrafo {
-    text-align: left; } }
+    text-align: left; }
+  /*
+************************************************ 
+    PAGINA Contacto
+************************************************
+*/
+  .contacto .contacto__img .contacto__img-png {
+    width: 70%; }
+  .contacto .contacto__1 .contacto__svg {
+    width: 10rem; } }
 
 /*
 .galeria__title {

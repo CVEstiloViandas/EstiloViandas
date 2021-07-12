@@ -542,11 +542,29 @@ header{
     PAGINA ¿Quienes somos?
 ************************************************
 */
-.conocenos {
-  .conocenos__parrafo {
+  .conocenos {
+    .conocenos__parrafo {
     text-align: left;
+    }
+  }
+      /*
+************************************************ 
+    PAGINA Contacto
+************************************************
+*/
+.contacto {
+  .contacto__img {
+    .contacto__img-png {
+      width: min(70%);
+    }
+  }
+  .contacto__1 {
+    .contacto__svg {
+      width: 10rem;
+    }
   }
 }
+
 }
 
 // Galeria
