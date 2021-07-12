@@ -186,7 +186,7 @@ header {
     text-align: center;
     font-family: "Montserrat";
     font-weight: 400;
-    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    font-size: clamp(1rem, 2vw, 1.2rem);
     width: 80%;
     color: #000000;
     line-height: 2rem;

@@ -227,7 +227,7 @@ header{
   .conocenos__parrafo {
     text-align: center;
     @include titulos("Montserrat", 400);
-    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    font-size: clamp(1rem, 2vw, 1.2rem);
     width: 80%;
     color: $tipografia;
     line-height: 2rem;
