@@ -24,6 +24,21 @@ header{
   background-color: #ffffff;
 }
 
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background:none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 178, 178);
+  height: 10rem;
+  border-radius: 10px;
+}
 /*
 ************************************************ 
     MENU DEL SITIO WEB
@@ -74,6 +89,7 @@ header{
     height: 80vh;
     justify-content: center;
     position: relative;
+    animation: $fadeIn;
     .publicidad__contenedor--divTitulo {
       background-color: #ffffff;
       display: flex;
@@ -200,6 +216,7 @@ header{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  animation: $fadeIn;
   .conocenos__title {
     @include titulos("Montserrat", 600);
     text-align: center;
@@ -251,6 +268,7 @@ header{
 */
 .servicios {
   //TEXTO
+  animation: $fadeIn;
   .servicios__texto {
     .servicios__texto--div {
       padding: 10px 10px;
@@ -295,6 +313,7 @@ header{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  animation: $fadeIn;
   .contacto__title {
     width: 100%;
     @include titulos('Montserrat', 600);
@@ -353,8 +372,6 @@ header{
     }
   }
 }
-
-
 /*
 ************************************************ 
     RESPONSIVE
@@ -553,19 +570,28 @@ header{
     PAGINA Contacto
 ************************************************
 */
-.contacto {
-  .contacto__img {
-    .contacto__img-png {
-      width: min(70%);
+  .contacto {
+    .contacto__img {
+      .contacto__img-png {
+        width: min(70%);
+      }
     }
-  }
-  .contacto__1 {
-    .contacto__svg {
-      width: 10rem;
+    .contacto__1 {
+      .contacto__svg {
+        width: 10rem;
+      }
     }
   }
 }
-
+/*Animacion imágenes*/
+@keyframes animate {
+  from {
+    transition: .3s ease-in-out;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 // Galeria

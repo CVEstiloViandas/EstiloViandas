@@ -17,6 +17,18 @@ header {
   z-index: 2;
   background-color: #ffffff; }
 
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 8px; }
+
+::-webkit-scrollbar-track {
+  background: none; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #b3b2b2;
+  height: 10rem;
+  border-radius: 10px; }
+
 /*
 ************************************************ 
     MENU DEL SITIO WEB
@@ -58,7 +70,8 @@ header {
   flex-direction: column;
   height: 80vh;
   justify-content: center;
-  position: relative; }
+  position: relative;
+  animation: animate 0.9s ease-in-out; }
   .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo {
     background-color: #ffffff;
     display: flex;
@@ -160,7 +173,8 @@ header {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  animation: animate 0.9s ease-in-out; }
   .conocenos .conocenos__title {
     font-family: "Montserrat";
     font-weight: 600;
@@ -205,31 +219,30 @@ header {
     PAGINA DE SERVICIOS
 ************************************************
 */
-.servicios .servicios__texto .servicios__texto--div {
-  padding: 10px 10px;
-  word-break: break-word; }
-  .servicios .servicios__texto .servicios__texto--div h2 {
-    font-family: "Montserrat";
-    font-weight: 600;
-    font-size: 32px;
-    color: #000000; }
-  .servicios .servicios__texto .servicios__texto--div p {
-    font-size: 16.5px; }
-
-.servicios .servicios__carousel .carousel {
-  width: 75%; }
-
-.servicios .servicios__carousel .carousel-inner .carousel-item {
-  height: 300px;
-  padding: 2px; }
-  .servicios .servicios__carousel .carousel-inner .carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
-
-.servicios .servicios__carousel .carousel-control-prev-icon,
-.servicios .servicios__carousel .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.3); }
+.servicios {
+  animation: animate 0.9s ease-in-out; }
+  .servicios .servicios__texto .servicios__texto--div {
+    padding: 10px 10px;
+    word-break: break-word; }
+    .servicios .servicios__texto .servicios__texto--div h2 {
+      font-family: "Montserrat";
+      font-weight: 600;
+      font-size: 32px;
+      color: #000000; }
+    .servicios .servicios__texto .servicios__texto--div p {
+      font-size: 16.5px; }
+  .servicios .servicios__carousel .carousel {
+    width: 75%; }
+  .servicios .servicios__carousel .carousel-inner .carousel-item {
+    height: 300px;
+    padding: 2px; }
+    .servicios .servicios__carousel .carousel-inner .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .servicios .servicios__carousel .carousel-control-prev-icon,
+  .servicios .servicios__carousel .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3); }
 
 /*
 ************************************************ 
@@ -239,7 +252,8 @@ header {
 .contacto {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  animation: animate 0.9s ease-in-out; }
   .contacto .contacto__title {
     width: 100%;
     font-family: "Montserrat";
@@ -415,6 +429,14 @@ header {
     width: 70%; }
   .contacto .contacto__1 .contacto__svg {
     width: 10rem; } }
+
+/*Animacion imágenes*/
+@keyframes animate {
+  from {
+    transition: .3s ease-in-out;
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 /*
 .galeria__title {
