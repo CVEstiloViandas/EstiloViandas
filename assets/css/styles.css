@@ -225,7 +225,8 @@ header {
   padding: 2px; }
   .servicios .servicios__carousel .carousel-inner .carousel-item img {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    object-fit: cover; }
 
 .servicios .servicios__carousel .carousel-control-prev-icon,
 .servicios .servicios__carousel .carousel-control-next-icon {
