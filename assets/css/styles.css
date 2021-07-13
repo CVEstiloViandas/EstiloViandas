@@ -377,6 +377,24 @@ header {
     .servicios .servicios__carousel .carousel-inner .carousel-item {
       height: 330px; } }
 
+@media only screen and (max-width: 425px) {
+  /*
+************************************************ 
+    PAGINA ¿Quienes somos?
+************************************************
+*/
+  .conocenos .conocenos__parrafo {
+    text-align: left; }
+  /*
+************************************************ 
+    PAGINA Contacto
+************************************************
+*/
+  .contacto .contacto__img .contacto__img-png {
+    width: 75%; }
+  .contacto .contacto__1 .contacto__svg {
+    width: 6rem; } }
+
 @media only screen and (max-width: 400px) {
   /* 
   MENU DE NAVEGACION 
@@ -412,23 +430,7 @@ header {
   .servicios .servicios__carousel .carousel {
     width: 95%; }
   .servicios .servicios__carousel .carousel-inner .carousel-item {
-    height: 250px; }
-  /*
-************************************************ 
-    PAGINA ¿Quienes somos?
-************************************************
-*/
-  .conocenos .conocenos__parrafo {
-    text-align: left; }
-  /*
-************************************************ 
-    PAGINA Contacto
-************************************************
-*/
-  .contacto .contacto__img .contacto__img-png {
-    width: 70%; }
-  .contacto .contacto__1 .contacto__svg {
-    width: 10rem; } }
+    height: 250px; } }
 
 /*Animacion imágenes*/
 @keyframes animate {

@@ -486,6 +486,37 @@ header{
     }
   }
 }
+@media only screen and (max-width: 425px) {
+      /*
+************************************************ 
+    PAGINA ¿Quienes somos?
+************************************************
+*/
+.conocenos {
+  .conocenos__parrafo {
+  text-align: left;
+  }
+}
+        /*
+************************************************ 
+    PAGINA Contacto
+************************************************
+*/
+.contacto {
+  .contacto__img {
+    .contacto__img-png {
+      width: min(75%);
+    }
+  }
+  .contacto__1 {
+    .contacto__svg {
+      width: 6rem;
+    }
+  }
+}
+}
+
+
 @media only screen and (max-width: 400px) {
   /* 
   MENU DE NAVEGACION 
@@ -552,33 +583,6 @@ header{
         .carousel-item {
           height: 250px;
         }
-      }
-    }
-  }
-    /*
-************************************************ 
-    PAGINA ¿Quienes somos?
-************************************************
-*/
-  .conocenos {
-    .conocenos__parrafo {
-    text-align: left;
-    }
-  }
-      /*
-************************************************ 
-    PAGINA Contacto
-************************************************
-*/
-  .contacto {
-    .contacto__img {
-      .contacto__img-png {
-        width: min(70%);
-      }
-    }
-    .contacto__1 {
-      .contacto__svg {
-        width: 10rem;
       }
     }
   }
