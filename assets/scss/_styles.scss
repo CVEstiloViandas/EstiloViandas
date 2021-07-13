@@ -322,6 +322,7 @@ header{
     text-align: center;
     letter-spacing: clamp(.5rem, 1vw, 1rem); 
     font-size: clamp(30px, 2.5vw, 3rem);
+    margin: 2rem 0;
   }
   .contacto__wsp {
     display: flex;
@@ -345,6 +346,7 @@ header{
     text-align: center;
     .contacto__img-png {
       width: min(50%);
+      margin-bottom: 3rem;
     }
   }
   .contacto__icons {

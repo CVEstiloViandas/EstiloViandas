@@ -262,7 +262,8 @@ header {
     color: #000000;
     text-align: center;
     letter-spacing: clamp(0.5rem, 1vw, 1rem);
-    font-size: clamp(30px, 2.5vw, 3rem); }
+    font-size: clamp(30px, 2.5vw, 3rem);
+    margin: 2rem 0; }
   .contacto .contacto__wsp {
     display: flex;
     width: 100%;
@@ -280,7 +281,8 @@ header {
   .contacto .contacto__img {
     text-align: center; }
     .contacto .contacto__img .contacto__img-png {
-      width: 50%; }
+      width: 50%;
+      margin-bottom: 3rem; }
   .contacto .contacto__icons {
     margin-top: 3rem;
     display: flex;
