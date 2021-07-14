@@ -103,11 +103,12 @@ header {
   align-items: center; }
   .icocosInicio .icocosInicio__contenedorImg img {
     width: 150px;
-    height: 150px;
     cursor: pointer; }
   .icocosInicio .icocosInicio__contenedorImg img:hover {
     transition: 1s all ease;
     transform: translateX(7px); }
+  .icocosInicio .icocosInicio__contenedorImg .viandas__img {
+    width: 170px; }
 
 .publicidad-instagram .publicidad-instagram__img {
   width: 100%; }

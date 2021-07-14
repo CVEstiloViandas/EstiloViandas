@@ -126,12 +126,15 @@ header{
     align-items: center;
     img {
       width: 150px;
-      height: 150px;
+      // height: 150px;
       cursor: pointer;
     }
     img:hover {
       transition: 1s all ease;
       transform: translateX(7px);
+    }
+    .viandas__img {
+      width: 170px;
     }
   }
 }
