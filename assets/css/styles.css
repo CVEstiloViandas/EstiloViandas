@@ -11,11 +11,17 @@
   box-sizing: border-box;
   font-family: "Roboto"; }
 
+body {
+  background-image: url(/assets/img/patternOp.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: repeat-x; }
+
 header {
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: #ffffff; }
+  background-color: #f1f1f1; }
 
 /* Scroll Bar */
 ::-webkit-scrollbar {
@@ -236,6 +242,12 @@ header {
       color: #000000; }
     .servicios .servicios__texto .servicios__texto--div p {
       font-size: 16.5px; }
+    .servicios .servicios__texto .servicios__texto--div .servicios__link {
+      display: block;
+      color: gray;
+      transition: .2s ease-in-out; }
+      .servicios .servicios__texto .servicios__texto--div .servicios__link:hover {
+        color: lightgray; }
   .servicios .servicios__carousel .carousel {
     width: 75%; }
   .servicios .servicios__carousel .carousel-inner .carousel-item {
@@ -337,7 +349,7 @@ header {
     MENU DE NAVEGACION 
   */
   .menu .menu__contenedor .menu__contenedor--navBar {
-    background-color: #ffffff; }
+    background-color: #f1f1f1; }
     .menu .menu__contenedor .menu__contenedor--navBar a {
       padding: 10px 5px; }
     .menu .menu__contenedor .menu__contenedor--navBar li:hover a {

@@ -17,11 +17,19 @@
   box-sizing: border-box;
   font-family: "Roboto";
 }
+
+body {
+  background-image: url(/assets/img/patternOp.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat:repeat-x;
+}
+
 header{
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: #ffffff;
+  background-color: #f1f1f1;
 }
 
 /* Scroll Bar */
@@ -289,6 +297,14 @@ header{
       p {
         font-size: 16.5px;
       }
+      .servicios__link {
+        display: block;
+        color: gray;
+        transition: .2s ease-in-out;
+        &:hover {
+          color: lightgray;
+        }
+      }
     }
   }
   .servicios__carousel {
@@ -422,7 +438,7 @@ header{
   .menu {
     .menu__contenedor {
       .menu__contenedor--navBar {
-        background-color: $blancoGeneral;
+        background-color: #f1f1f1;
         a {
           padding: 10px 5px;
         }
