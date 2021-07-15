@@ -14,8 +14,8 @@
 body {
   background-image: url(../img/patternOp2.png);
   background-position: center;
-  background-attachment: fixed;
-  background-repeat: repeat-x; }
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 header {
   position: sticky;
