@@ -271,14 +271,15 @@ header {
       .servicios .servicios__texto .servicios__texto--div .servicios__link:hover {
         color: lightgray; }
   .servicios .servicios__carousel .carousel {
-    width: 75%; }
+    width: 70%; }
   .servicios .servicios__carousel .carousel-inner .carousel-item {
-    height: 300px;
+    /* height: 300px; */
+    height: 50vh;
     padding: 2px; }
     .servicios .servicios__carousel .carousel-inner .carousel-item img {
       width: 100%;
       height: 100%;
-      object-fit: cover; }
+      object-fit: fill; }
   .servicios .servicios__carousel .carousel-control-prev-icon,
   .servicios .servicios__carousel .carousel-control-next-icon {
     background-color: rgba(0, 0, 0, 0.3); }
