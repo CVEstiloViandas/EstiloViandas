@@ -104,7 +104,9 @@ header{
     justify-content: center;
     position: relative;
     animation: $fadeIn;
-    .publicidad__contenedor--divTitulo {
+    //Publicidad 2
+    padding: 15px;
+/*     .publicidad__contenedor--divTitulo {
       background-color: #ffffff;
       display: flex;
       justify-content: center;
@@ -116,11 +118,13 @@ header{
         height: 80%;
         width: 80%;
       }
-    }
+    } */
     .publicidad__contenedor--imgDeFondo {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      /* object-fit: cover; */
+      // Publicidad 2
+      object-fit: fill;
     }
   }
 }
@@ -140,15 +144,13 @@ header{
     align-items: center;
     img {
       width: 150px;
-      // height: 150px;
+      height: 170px;
       cursor: pointer;
     }
     img:hover {
       transition: 1s all ease;
-      transform: translateX(7px);
-    }
-    .viandas__img {
-      width: 170px;
+      /* transform: translateX(7px); */
+      transform: scale(1.1 , 1.1);
     }
   }
 }
@@ -300,7 +302,7 @@ header{
   .carousel-item{
     img{
       width: 100%;
-      /* object-fit: cover; */
+      object-fit: fill;
     }
   }
 }
@@ -341,7 +343,7 @@ header{
     .carousel-inner {
       .carousel-item {
         /* height: 300px; */
-        height: 50vh;
+        height: 35%;
         padding: 2px;
         img {
           width: 100%;
@@ -490,24 +492,11 @@ header{
 */
   .publicidad {
     .publicidad__contenedor {
-      height: 60vh;
-      .publicidad__contenedor--divTitulo {
-        background-color: #ffffff;
-        display: flex;
-        justify-content: center;
-        opacity: 0.9;
-        padding: 20px 10px;
-        position: absolute;
-        width: 65%;
-        img {
-          height: 80%;
-          width: 80%;
-        }
-      }
+      height: 52vh;
+      padding: 0;
       .publicidad__contenedor--imgDeFondo {
         width: 100%;
         height: 100%;
-        object-fit: cover;
       }
     }
   }
@@ -530,11 +519,11 @@ header{
       display: flex;
       justify-content: center;
       .carousel {
-        width: 85%;
+        width: 80%;
       }
       .carousel-inner {
         .carousel-item {
-          height: 330px;
+          height: 40%;
         }
       }
     }
@@ -603,14 +592,7 @@ header{
 */
   .publicidad {
     .publicidad__contenedor {
-      height: 45vh;
-      .publicidad__contenedor--divTitulo {
-        width: 75%;
-        img {
-          height: 100%;
-          width: 100%;
-        }
-      }
+      height: 36vh;
     }
   }
   .icocosInicio {
@@ -622,10 +604,11 @@ header{
     .icocosInicio__contenedorImg {
       img {
         width: 130px;
-        height: 130px;
+        height: 140px;
       }
     }
   }
+  
   /*
 ************************************************ 
     PAGINA DE SERVICIOS
@@ -645,11 +628,11 @@ header{
     }
     .servicios__carousel {
       .carousel {
-        width: 95%;
+        width: 96%;
       }
       .carousel-inner {
         .carousel-item {
-          height: 250px;
+          height: 48%;
         }
       }
     }
@@ -658,20 +641,20 @@ header{
   PAGINA QUIENES-SOMOS
 */
   .carousel-quienes-somos{
+    padding: 0 0;
     .carousel-inner {
       .carousel-item {
         img {
           width: 100%;
-          height: 50vh;
-          object-fit: cover;
+          height: 40vh;
         }
       }
     }
     .carousel-control-prev{
-      left: -2%;
+      left: 1%;
     }
     .carousel-control-next{
-      right: -2%;
+      right: 1%;
     }
   }
 }

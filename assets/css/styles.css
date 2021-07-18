@@ -81,22 +81,26 @@ header {
   height: 80vh;
   justify-content: center;
   position: relative;
-  animation: animate 0.9s ease-in-out; }
-  .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    opacity: 0.9;
-    padding: 20px 10px;
-    position: absolute;
-    width: 65%; }
-    .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo img {
-      height: 80%;
-      width: 80%; }
+  animation: animate 0.9s ease-in-out;
+  padding: 15px;
+  /*     .publicidad__contenedor--divTitulo {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      opacity: 0.9;
+      padding: 20px 10px;
+      position: absolute;
+      width: 65%;
+      img {
+        height: 80%;
+        width: 80%;
+      }
+    } */ }
   .publicidad .publicidad__contenedor .publicidad__contenedor--imgDeFondo {
     width: 100%;
     height: 100%;
-    object-fit: cover; }
+    /* object-fit: cover; */
+    object-fit: fill; }
 
 .icocosInicio .iconosInicio__contenedorTitulo {
   padding: 20px 5px; }
@@ -113,12 +117,12 @@ header {
   align-items: center; }
   .icocosInicio .icocosInicio__contenedorImg img {
     width: 150px;
+    height: 170px;
     cursor: pointer; }
   .icocosInicio .icocosInicio__contenedorImg img:hover {
     transition: 1s all ease;
-    transform: translateX(7px); }
-  .icocosInicio .icocosInicio__contenedorImg .viandas__img {
-    width: 170px; }
+    /* transform: translateX(7px); */
+    transform: scale(1.1, 1.1); }
 
 .publicidad-instagram .publicidad-instagram__img {
   width: 100%; }
@@ -245,7 +249,7 @@ header {
 
 .carousel-quienes-somos .carousel-item img {
   width: 100%;
-  /* object-fit: cover; */ }
+  object-fit: fill; }
 
 /*
 ************************************************ 
@@ -274,7 +278,7 @@ header {
     width: 70%; }
   .servicios .servicios__carousel .carousel-inner .carousel-item {
     /* height: 300px; */
-    height: 50vh;
+    height: 35%;
     padding: 2px; }
     .servicios .servicios__carousel .carousel-inner .carousel-item img {
       width: 100%;
@@ -387,22 +391,11 @@ header {
 ************************************************
 */
   .publicidad .publicidad__contenedor {
-    height: 60vh; }
-    .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo {
-      background-color: #ffffff;
-      display: flex;
-      justify-content: center;
-      opacity: 0.9;
-      padding: 20px 10px;
-      position: absolute;
-      width: 65%; }
-      .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo img {
-        height: 80%;
-        width: 80%; }
+    height: 52vh;
+    padding: 0; }
     .publicidad .publicidad__contenedor .publicidad__contenedor--imgDeFondo {
       width: 100%;
-      height: 100%;
-      object-fit: cover; }
+      height: 100%; }
   /*
 ************************************************ 
     PAGINA DE SERVICIOS
@@ -415,9 +408,9 @@ header {
     display: flex;
     justify-content: center; }
     .servicios .servicios__carousel .carousel {
-      width: 85%; }
+      width: 80%; }
     .servicios .servicios__carousel .carousel-inner .carousel-item {
-      height: 330px; }
+      height: 40%; }
   /* 
     PAGINA QUIENES-SOMOS
   */
@@ -458,17 +451,12 @@ header {
 ************************************************
 */
   .publicidad .publicidad__contenedor {
-    height: 45vh; }
-    .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo {
-      width: 75%; }
-      .publicidad .publicidad__contenedor .publicidad__contenedor--divTitulo img {
-        height: 100%;
-        width: 100%; }
+    height: 36vh; }
   .icocosInicio .iconosInicio__contenedorTitulo h2 {
     font-size: 25px; }
   .icocosInicio .icocosInicio__contenedorImg img {
     width: 130px;
-    height: 130px; }
+    height: 140px; }
   /*
 ************************************************ 
     PAGINA DE SERVICIOS
@@ -479,20 +467,21 @@ header {
   .servicios .servicios__texto .servicios__texto--div p {
     font-size: 15.5px; }
   .servicios .servicios__carousel .carousel {
-    width: 95%; }
+    width: 96%; }
   .servicios .servicios__carousel .carousel-inner .carousel-item {
-    height: 250px; }
+    height: 48%; }
   /* 
   PAGINA QUIENES-SOMOS
 */
-  .carousel-quienes-somos .carousel-inner .carousel-item img {
-    width: 100%;
-    height: 50vh;
-    object-fit: cover; }
-  .carousel-quienes-somos .carousel-control-prev {
-    left: -2%; }
-  .carousel-quienes-somos .carousel-control-next {
-    right: -2%; } }
+  .carousel-quienes-somos {
+    padding: 0 0; }
+    .carousel-quienes-somos .carousel-inner .carousel-item img {
+      width: 100%;
+      height: 40vh; }
+    .carousel-quienes-somos .carousel-control-prev {
+      left: 1%; }
+    .carousel-quienes-somos .carousel-control-next {
+      right: 1%; } }
 
 /*Animacion imágenes*/
 @keyframes animate {
