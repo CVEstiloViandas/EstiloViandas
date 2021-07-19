@@ -159,6 +159,42 @@ header{
     width: 100%;
   }
 }
+
+.music {
+  text-align: center;
+  width: 100%;
+  .music__line {
+    background-color: #F58220;
+    border-radius: 5px;
+    width: 80%;
+    margin: 1rem auto;
+    min-height: .2rem;
+    }
+    .line--2 {
+      min-height: .2rem;
+      background-color: $fondo__navBar;
+    }
+    .text__container {
+      margin:4rem 0;
+      .music__title {
+        @include titulos("Montserrat", 600);
+        font-size: clamp(20px, 2.5vw, 32px);    
+      }
+      .music__salto {
+        @include titulos("Montserrat", 600);
+        display: block;
+      }
+      .music__subtitle {
+        @include titulos("Montserrat", 400);
+        font-size: 24px;
+        margin: 2rem 0;
+        font-size: clamp(16px, 2.5vw, 24px); 
+      }
+    }
+  .music__img {
+    width: 100%;
+  }
+  }
 /*
 ************************************************ 
     FOOTER

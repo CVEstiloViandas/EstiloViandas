@@ -127,6 +127,37 @@ header {
 .publicidad-instagram .publicidad-instagram__img {
   width: 100%; }
 
+.music {
+  text-align: center;
+  width: 100%; }
+  .music .music__line {
+    background-color: #F58220;
+    border-radius: 5px;
+    width: 80%;
+    margin: 1rem auto;
+    min-height: .2rem; }
+  .music .line--2 {
+    min-height: .2rem;
+    background-color: rgba(167, 207, 59, 0.7); }
+  .music .text__container {
+    margin: 4rem 0; }
+    .music .text__container .music__title {
+      font-family: "Montserrat";
+      font-weight: 600;
+      font-size: clamp(20px, 2.5vw, 32px); }
+    .music .text__container .music__salto {
+      font-family: "Montserrat";
+      font-weight: 600;
+      display: block; }
+    .music .text__container .music__subtitle {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 24px;
+      margin: 2rem 0;
+      font-size: clamp(16px, 2.5vw, 24px); }
+  .music .music__img {
+    width: 100%; }
+
 /*
 ************************************************ 
     FOOTER
