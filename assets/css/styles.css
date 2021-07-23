@@ -26,7 +26,7 @@ header {
 /* Scroll Bar */
 ::-webkit-scrollbar {
   width: 8px;
-  transition: .3s ease-in-out; }
+  transition: 0.3s ease-in-out; }
 
 ::-webkit-scrollbar-track {
   background: none; }
@@ -130,13 +130,13 @@ header {
   text-align: center;
   width: 100%; }
   .music .music__line {
-    background-color: #F58220;
+    background-color: #f58220;
     border-radius: 5px;
     width: 80%;
     margin: 1rem auto;
-    min-height: .2rem; }
+    min-height: 0.2rem; }
   .music .line--2 {
-    min-height: .2rem;
+    min-height: 0.2rem;
     background-color: rgba(167, 207, 59, 0.7); }
   .music .text__container {
     margin: 4rem 0; }
@@ -301,7 +301,7 @@ header {
     .servicios .servicios__texto .servicios__texto--div .servicios__link {
       display: block;
       color: gray;
-      transition: .2s ease-in-out; }
+      transition: 0.2s ease-in-out; }
       .servicios .servicios__texto .servicios__texto--div .servicios__link:hover {
         color: lightgray; }
   .servicios .servicios__carousel .carousel {
@@ -346,7 +346,7 @@ header {
     font-size: clamp(1rem, 2.5vw, 2rem); }
     .contacto .contacto__wsp .contacto__wsp-text {
       margin-top: 1rem;
-      margin-left: .5rem; }
+      margin-left: 0.5rem; }
       .contacto .contacto__wsp .contacto__wsp-text .contacto__link {
         text-decoration: none;
         color: #9e9e9e; }
@@ -388,7 +388,9 @@ header {
   /* 
     FOOTER 
   */
-  .footer .footer__logo, .footer .footer__social, .footer .footer__links {
+  .footer .footer__logo,
+  .footer .footer__social,
+  .footer .footer__links {
     width: 100%;
     margin: 1rem 0; }
   .footer .footer__logo .footer__logo-png {
@@ -508,10 +510,12 @@ header {
   PAGINA QUIENES-SOMOS
 */
   .carousel-quienes-somos {
-    padding: 0 0; }
+    padding: 0 0;
+    min-height: 40vh;
+    overflow: hidden; }
     .carousel-quienes-somos .carousel-inner .carousel-item img {
       width: 100%;
-      height: 40vh; }
+      object-fit: cover; }
     .carousel-quienes-somos .carousel-control-prev {
       left: 1%; }
     .carousel-quienes-somos .carousel-control-next {
@@ -520,7 +524,7 @@ header {
 /*Animacion imágenes*/
 @keyframes animate {
   from {
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
     opacity: 0; }
   to {
     opacity: 1; } }

@@ -23,10 +23,10 @@ body {
   background-position: center;
   background-size: cover;
   // background-attachment: fixed;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
 }
 
-header{
+header {
   position: sticky;
   top: 0;
   z-index: 2;
@@ -37,11 +37,11 @@ header{
 
 ::-webkit-scrollbar {
   width: 8px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 ::-webkit-scrollbar-track {
-  background:none;
+  background: none;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -105,7 +105,7 @@ header{
     position: relative;
     animation: $fadeIn;
     //Publicidad 2
-/*     .publicidad__contenedor--divTitulo {
+    /*     .publicidad__contenedor--divTitulo {
       background-color: #ffffff;
       display: flex;
       justify-content: center;
@@ -149,7 +149,7 @@ header{
     img:hover {
       transition: 1s all ease;
       /* transform: translateX(7px); */
-      transform: scale(1.1 , 1.1);
+      transform: scale(1.1, 1.1);
     }
   }
 }
@@ -163,37 +163,37 @@ header{
   text-align: center;
   width: 100%;
   .music__line {
-    background-color: #F58220;
+    background-color: #f58220;
     border-radius: 5px;
     width: 80%;
     margin: 1rem auto;
-    min-height: .2rem;
+    min-height: 0.2rem;
+  }
+  .line--2 {
+    min-height: 0.2rem;
+    background-color: $fondo__navBar;
+  }
+  .text__container {
+    margin: 4rem 0;
+    .music__title {
+      @include titulos("Montserrat", 600);
+      font-size: clamp(20px, 2.5vw, 32px);
     }
-    .line--2 {
-      min-height: .2rem;
-      background-color: $fondo__navBar;
+    .music__salto {
+      @include titulos("Montserrat", 600);
+      display: block;
     }
-    .text__container {
-      margin:4rem 0;
-      .music__title {
-        @include titulos("Montserrat", 600);
-        font-size: clamp(20px, 2.5vw, 32px);    
-      }
-      .music__salto {
-        @include titulos("Montserrat", 600);
-        display: block;
-      }
-      .music__subtitle {
-        @include titulos("Montserrat", 400);
-        font-size: 24px;
-        margin: 2rem 0;
-        font-size: clamp(16px, 2.5vw, 24px); 
-      }
+    .music__subtitle {
+      @include titulos("Montserrat", 400);
+      font-size: 24px;
+      margin: 2rem 0;
+      font-size: clamp(16px, 2.5vw, 24px);
     }
+  }
   .music__img {
     width: 100%;
   }
-  }
+}
 /*
 ************************************************ 
     FOOTER
@@ -315,27 +315,27 @@ header{
     color: $tipografia;
   }
 }
-.carousel-quienes-somos{
-  .carousel{
+.carousel-quienes-somos {
+  .carousel {
     display: flex;
     justify-content: center;
   }
-  .carousel-control-prev{
+  .carousel-control-prev {
     left: 10%;
   }
-  .carousel-control-next{
+  .carousel-control-next {
     right: 10%;
   }
   .carousel-control-prev-icon,
-  .carousel-control-next-icon{
+  .carousel-control-next-icon {
     background-color: $tipografia;
     opacity: 0.4;
   }
-  .carousel-inner{
+  .carousel-inner {
     width: 70%;
   }
-  .carousel-item{
-    img{
+  .carousel-item {
+    img {
       width: 100%;
       object-fit: fill;
     }
@@ -364,7 +364,7 @@ header{
       .servicios__link {
         display: block;
         color: gray;
-        transition: .2s ease-in-out;
+        transition: 0.2s ease-in-out;
         &:hover {
           color: lightgray;
         }
@@ -405,11 +405,11 @@ header{
   animation: $fadeIn;
   .contacto__title {
     width: 100%;
-    @include titulos('Montserrat', 600);
+    @include titulos("Montserrat", 600);
     text-transform: uppercase;
     color: $tipografia;
     text-align: center;
-    letter-spacing: clamp(.5rem, 1vw, 1rem); 
+    letter-spacing: clamp(0.5rem, 1vw, 1rem);
     font-size: clamp(30px, 2.5vw, 3rem);
     margin: 2rem 0;
   }
@@ -418,13 +418,13 @@ header{
     width: 100%;
     align-items: center;
     justify-content: center;
-    font-size: clamp(1rem, 2.5vw,2rem);
+    font-size: clamp(1rem, 2.5vw, 2rem);
     .contacto__wsp-text {
       margin-top: 1rem;
-      margin-left: .5rem;
+      margin-left: 0.5rem;
       .contacto__link {
         text-decoration: none;
-        color:rgb(158, 158, 158);
+        color: rgb(158, 158, 158);
         &:hover {
           border-bottom: 2px solid rgb(157, 157, 157);
         }
@@ -454,8 +454,8 @@ header{
         width: 100%;
         margin: 2rem 0;
         text-align: center;
-        @include titulos('Roboto', 700);
-        font-size: clamp(20px, 2.5vw,30px);
+        @include titulos("Roboto", 700);
+        font-size: clamp(20px, 2.5vw, 30px);
         .contacto__salto {
           display: block;
         }
@@ -473,7 +473,9 @@ header{
     FOOTER 
   */
   .footer {
-    .footer__logo, .footer__social, .footer__links {
+    .footer__logo,
+    .footer__social,
+    .footer__links {
       width: 100%;
       margin: 1rem 0;
     }
@@ -527,7 +529,7 @@ header{
 */
   .publicidad {
     .publicidad__contenedor {
-/*       height: 52vh;
+      /*       height: 52vh;
       padding: 0 0; */
       .publicidad__contenedor--imgDeFondo {
         width: 100%;
@@ -567,48 +569,47 @@ header{
   /* 
     PAGINA QUIENES-SOMOS
   */
-  .carousel-quienes-somos{
-    .carousel-control-prev{
+  .carousel-quienes-somos {
+    .carousel-control-prev {
       left: -3%;
     }
-    .carousel-control-next{
+    .carousel-control-next {
       right: -3%;
     }
-    .carousel-inner{
+    .carousel-inner {
       width: 100%;
     }
   }
 }
 @media only screen and (max-width: 425px) {
-      /*
+  /*
 ************************************************ 
     PAGINA ¿Quienes somos?
 ************************************************
 */
-.conocenos {
-  .conocenos__parrafo {
-  text-align: left;
+  .conocenos {
+    .conocenos__parrafo {
+      text-align: left;
+    }
   }
-}
-        /*
+  /*
 ************************************************ 
     PAGINA Contacto
 ************************************************
 */
-.contacto {
-  .contacto__img {
-    .contacto__img-png {
-      width: min(75%);
+  .contacto {
+    .contacto__img {
+      .contacto__img-png {
+        width: min(75%);
+      }
     }
-  }
-  .contacto__1 {
-    .contacto__svg {
-      width: 6rem;
+    .contacto__1 {
+      .contacto__svg {
+        width: 6rem;
+      }
     }
   }
 }
-}
-
 
 @media only screen and (max-width: 400px) {
   /* 
@@ -626,7 +627,7 @@ header{
     PAGINA DE INCIO
 ************************************************
 */
-/*   .publicidad {
+  /*   .publicidad {
     .publicidad__contenedor {
       height: 27vh;
     }
@@ -644,7 +645,7 @@ header{
       }
     }
   }
-  
+
   /*
 ************************************************ 
     PAGINA DE SERVICIOS
@@ -673,23 +674,26 @@ header{
       }
     }
   }
-/* 
+  /* 
   PAGINA QUIENES-SOMOS
 */
-  .carousel-quienes-somos{
+  .carousel-quienes-somos {
     padding: 0 0;
+    min-height: 40vh;
+    overflow: hidden;
     .carousel-inner {
       .carousel-item {
         img {
           width: 100%;
-          height: 40vh;
+          object-fit: cover;
+          //height: 40vh;
         }
       }
     }
-    .carousel-control-prev{
+    .carousel-control-prev {
       left: 1%;
     }
-    .carousel-control-next{
+    .carousel-control-next {
       right: 1%;
     }
   }
@@ -697,7 +701,7 @@ header{
 /*Animacion imágenes*/
 @keyframes animate {
   from {
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
     opacity: 0;
   }
   to {
